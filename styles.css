@@ -1,0 +1,41 @@
+body {
+    position: relative;
+}
+
+.navbar-nav .nav-link {
+    cursor: pointer;
+}
+
+.home-section, .about-section, .projects-section, .skills-section, .contact-section {
+    padding: 100px 20px;
+    min-height: 100vh;
+}
+
+.home-section {
+    background-color: #f8f9fa;
+}
+
+.about-section {
+    background-color: #e9ecef;
+}
+
+.projects-section {
+    background-color: #f8f9fa;
+}
+
+.skills-section {
+    background-color: #e9ecef;
+}
+
+.contact-section {
+    background-color: #343a40;
+}
+
+.text-white a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.text-white a:hover {
+    text-decoration: underline;
+}
